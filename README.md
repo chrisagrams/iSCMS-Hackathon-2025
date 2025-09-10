@@ -8,7 +8,7 @@ To help participants around the world, here are some common conversions:
 - 1:00 PM – 6:00 PM Eastern Time (ET)  
 - 10:00 AM – 3:00 PM Pacific Time (PT)  
 - 5:00 PM – 10:00 PM Greenwich Mean Time (GMT/UTC)  
-- 6:00 PM – 11:00 PM Central European Time (CET)  
+- 7:00 PM – 12:00 AM Central European Time (CET)  
 
 ## Task at Hand
 The challenge for this hackathon is:  
@@ -30,6 +30,10 @@ Participants will work on designing and implementing approaches to clean noisy s
    - By participating, you agree to potentially contribute additional time *after* the hackathon to help prepare your work for publication.  
 
 3. **Resource Usage**  
-   - You may use any computational resources at your disposal (local machines, HPC, cloud, etc.).
+   - You may use any computational resources available to you (local machines, HPC systems, cloud platforms, etc.).
+
+      - However, your final solution must be runnable on a modern high-end personal computer. Avoid approaches that demand excessive memory or compute.
+
+      - For example, it is acceptable to train a model on a GPU cluster, but the resulting model should still be able to run inference efficiently on a personal computer.
 
 ---
