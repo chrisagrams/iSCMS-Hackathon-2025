@@ -19,7 +19,21 @@ Participants will work on designing and implementing approaches to clean noisy s
 ---
 
 ## Example Submission Workflow
-*TODO*
+
+To help you familiarize yourself with the data before the competition, we provide an [example.mzML](https://raw.githubusercontent.com/chrisagrams/iSCMS-Hackathon-2025/refs/heads/main/data/example.mzML) file.  
+An mzML file is an open, XML-based standard format for mass spectrometry data. It stores information about spectra, including metadata, mass-to-charge (m/z) values, and intensity measurements.
+
+There are various libraries to parse mzML files for Python and R. One such library for Python is [pymzML](https://pymzml.readthedocs.io/en/latest/).
+
+We also provide an [example_output.csv](https://raw.githubusercontent.com/chrisagrams/iSCMS-Hackathon-2025/refs/heads/main/data/example_output.csv) file with the following structure:
+
+- **spec_no**: Spectrum number (integer).  
+- **mz**: Mass-to-charge ratio (floating-point, 64-bit precision).  
+- **peak**: Binary label — `0` indicates noise, and `1` indicates a true signal.
+
+We will provide the final mzML file used for the competition at **12:00 PM Central Time on the day of the hackathon**.
+
+We expect your solution to follow the same format as our provided example CSV file, providing your identifications (true signal or nosie) for each peak within the mzML.
 
 ## Rules
 1. **Open Source Requirement**  
