@@ -4,6 +4,9 @@ We are excited to announce our upcoming hackathon!
 **Date:** September 25th  
 **Time:** 12:00 PM – 5:00 PM Central Time  
 
+- Zoom Link: https://uic.zoom.us/j/7180490853?omn=84858766470
+- Zoom Meeting ID: `718 049 0853`
+
 To help participants around the world, here are some common conversions:
 - 1:00 PM – 6:00 PM Eastern Time (ET)  
 - 10:00 AM – 3:00 PM Pacific Time (PT)  
