@@ -24,9 +24,9 @@ Participants will work on designing and implementing approaches to clean noisy s
 ## Instructions
 
 We provide three csv files containing mass spectra with noise and true signal. 
-- train.csv
-- validation.csv
-- test.csv
+- [train.csv](https://raw.githubusercontent.com/chrisagrams/iSCMS-Hackathon-2025/refs/heads/main/data/train.csv)
+- [validation.csv](https://raw.githubusercontent.com/chrisagrams/iSCMS-Hackathon-2025/refs/heads/main/data/validation.csv)
+- [test.csv](https://raw.githubusercontent.com/chrisagrams/iSCMS-Hackathon-2025/refs/heads/main/data/test.csv)
 
 The CSV files are in the following format:
 - `spec_no`: A non-unique index respresenting the spectrum. For example, each row with spec_no = 1 will correspond to all the peaks to that spectrum.
