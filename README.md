@@ -23,7 +23,7 @@ Participants will work on designing and implementing approaches to clean noisy s
 
 ## Instructions
 
-We provide three csv files containing mass spectra with noise and true signal. 
+We provide three CSV files containing mass spectra with noise and true signal. 
 - [train.csv](https://raw.githubusercontent.com/chrisagrams/iSCMS-Hackathon-2025/refs/heads/main/data/train.csv)
 - [validation.csv](https://raw.githubusercontent.com/chrisagrams/iSCMS-Hackathon-2025/refs/heads/main/data/validation.csv)
 - [test.csv](https://raw.githubusercontent.com/chrisagrams/iSCMS-Hackathon-2025/refs/heads/main/data/test.csv)
