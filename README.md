@@ -21,22 +21,29 @@ Participants will work on designing and implementing approaches to clean noisy s
 
 ---
 
-## Example Submission Workflow
+## Instructions
 
-To help you familiarize yourself with the data before the competition, we provide an [example.mzML](https://raw.githubusercontent.com/chrisagrams/iSCMS-Hackathon-2025/refs/heads/main/data/example.mzML) file.  
-An mzML file is an open, XML-based standard format for mass spectrometry data. It stores information about spectra, including metadata, mass-to-charge (m/z) values, and intensity measurements.
+We provide three csv files containing mass spectra with noise and true signal. 
+- train.csv
+- validation.csv
+- test.csv
 
-There are various libraries to parse mzML files for Python and R. One such library for Python is [pymzML](https://pymzml.readthedocs.io/en/latest/).
+The CSV files are in the following format:
+- `spec_no`: A non-unique index respresenting the spectrum. For example, each row with spec_no = 1 will correspond to all the peaks to that spectrum.
+- `mz`: The m/z value for a signal
+- `intensity`: The intensity value for a signal
+- `signal`: A binary label representing if the peak is true signal (signal = 1) or noise (signal = 0)
 
-We also provide an [example_output.csv](https://raw.githubusercontent.com/chrisagrams/iSCMS-Hackathon-2025/refs/heads/main/data/example_output.csv) file with the following structure:
+The **train set** contains **600 labeled spectra** and the **validation set** contains **100 labeled spectra**.
 
-- **spec_no**: Spectrum number (integer).  
-- **mz**: Mass-to-charge ratio (floating-point, 64-bit precision).  
-- **peak**: Binary label — `0` indicates noise, and `1` indicates a true signal.
+The test set ***does not contain labels***. We will use this set to evalauate your solution.
 
-We will provide the final mzML file used for the competition at **12:00 PM Central Time on the day of the hackathon**.
-
-We expect your solution to follow the same format as our provided example CSV file, providing your identifications (true signal or nosie) for each peak within the mzML.
+### Submission Instructions
+1. Annotate **test.csv** by adding another column, signal, with binary values either 0 or 1. 
+- *Ensure that you do not change the length of this file!* Do not remove peaks or spectra before submission. If you believe a peak is noise, label this with signal = 0.
+2. Navigate to http://pepchem.org:35098/submit
+3. Fill out the form with your information and upload *your annotated test.csv* file in the "File Upload" section.
+4. View you result at http://pepchem.org:35098/ranking
 
 ## Rules
 1. **Open Source Requirement**  
