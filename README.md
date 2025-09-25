@@ -41,9 +41,9 @@ The test set ***does not contain labels***. We will use this set to evalauate yo
 ### Submission Instructions
 1. Annotate **test.csv** by adding another column, signal, with binary values either 0 or 1. 
 - *Ensure that you do not change the length of this file!* Do not remove peaks or spectra before submission. If you believe a peak is noise, label this with signal = 0.
-2. Navigate to http://pepchem.org:35098/submit
+2. Navigate to [http://pepchem.org:35098/submit](http://pepchem.org:35098/submit)
 3. Fill out the form with your information and upload *your annotated test.csv* file in the "File Upload" section.
-4. View you result at http://pepchem.org:35098/ranking
+4. View you result at [http://pepchem.org:35098/ranking](http://pepchem.org:35098/submit)
 
 ## Rules
 1. **Open Source Requirement**  
